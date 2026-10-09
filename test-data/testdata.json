@@ -1,0 +1,20 @@
+{
+  
+    "ApplictaionURL" : 
+          {
+            "ProdURL" : "https://sauce-demo.myshopify.com/"
+          },
+
+    "PageTitle" :
+          {
+             "HomepageTitle" : "Sauce Demo"
+
+          },
+
+    "VerifyURL" : 
+          {
+             "LoginPageURL" : "/account/login"
+
+          }
+
+}

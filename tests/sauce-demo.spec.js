@@ -1,9 +1,9 @@
-import{test} from '@playwright/test';
-import{sauceDemo_impl} from '../implementation/impl.js';
+import { test } from '@playwright/test';
+import { sauceDemo_impl } from '../implementation/impl.js';
 
-test.describe("SauceLabs", ()=>{
+test.describe("SauceLabs", () => {
 
-    test.beforeEach(async({page})=>{
+    test.beforeEach(async ({ page }) => {
 
         const call = new sauceDemo_impl(page);
         await call.LaunchURL();
@@ -11,9 +11,9 @@ test.describe("SauceLabs", ()=>{
 
     })
 
-    test("Login", async({page})=>{
-           const call = new sauceDemo_impl(page);
-           await call.Login();
+    test("Login @E2E", async ({ page }) => {
+        const call = new sauceDemo_impl(page);
+        await call.Login();
 
 
     })

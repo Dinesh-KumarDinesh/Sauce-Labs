@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test:headed" : "npx playwright test --headed --project chromium",
-    "test:headless" : "npx playwright test --project=chromium"
+    "test:headless" : "npx playwright test --project=chromium",
+    "test:headed_E2E" : "npx playwright test --headed --project=chromium --grep @E2E"
   },
   "keywords": [],
   "author": "",
